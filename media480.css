@@ -1,0 +1,317 @@
+@media screen and (max-width: 480px) and (min-width: 321px) {
+  main {
+    width: 2404px;
+    height: 3038px;
+  }
+  main header {
+    width: 100%;
+    height: 550px;
+    position: relative;
+    background-image: url(./image/bg.png);
+  }
+  main header .menu_in_header {
+    margin: 0 998px;
+    width: 480px;
+    height: 204px;
+  }
+  main header .menu_in_header .pingbull {
+    width: 208px;
+    height: 52px;
+    float: left;
+    margin: 63px 0 0 118px;
+  }
+  main header .menu_in_header .pingbull .er {
+    font-size: 49px;
+    font-weight: 400;
+    color: #ffffff;
+    text-transform: uppercase;
+  }
+  main header .menu_in_header .nav {
+    width: 244px;
+    height: 262px;
+    float: left;
+    margin-top: 72px;
+    position: absolute;
+    z-index: 6;
+  }
+  main header .menu_in_header .nav .uelka {
+    display: none;
+  }
+  main header .menu_in_header .nav:hover {
+    cursor: pointer;
+    background-image: url(./image/navigation_copy7_480.png);
+    background-size: 100% 100%;
+    position: absolute;
+    z-index: 6;
+  }
+  main header .for_lorem {
+    width: 100%;
+    height: 247px;
+    background-color: rgba(0, 0, 0, 0.1);
+    padding-top: 1px;
+  }
+  main header .for_lorem .lorem_text {
+    width: 528px;
+    height: 235px;
+    margin: 2px 1000px 0;
+    text-align: start;
+  }
+  main header .for_lorem .lorem_text p {
+    margin-top: 91px;
+  }
+  main header .for_lorem .lorem_text .lorem_span1 {
+    font-size: 33px;
+    font-weight: 400;
+    color: white;
+    text-transform: uppercase;
+    text-transform: none;
+  }
+  main header .for_lorem .lorem_text .lorem_span2 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #c9a3d9;
+    text-transform: uppercase;
+    margin-top: 5px;
+  }
+  main header .for_lorem .lorem_text .lorem_span3 {
+    display: none;
+  }
+  main header .iphone1 {
+    width: 194px;
+    height: 266px;
+    border-radius: 1px;
+    background-image: url(./image/iphone_for480.png);
+    position: absolute;
+    top: 195px;
+    left: 1219px;
+    right: 0;
+    bottom: 0;
+    z-index: 3;
+  }
+  main header .iphone2 {
+    display: none;
+  }
+  main header .button_play1 {
+    display: none;
+  }
+  main header .button_play2 {
+    display: none;
+  }
+  main header .button_play3 {
+    display: none;
+  }
+  main aside {
+    width: 100%;
+    height: 600px;
+  }
+  main aside .about_our_comp {
+    width: 440px;
+    height: 144px;
+    margin: 14px 992px 0;
+  }
+  main aside .about_our_comp .in_aside_about1 {
+    width: 35px;
+    height: 100%;
+  }
+  main aside .about_our_comp .in_aside_about2 {
+    width: 382px;
+    height: 100px;
+    margin-left: 5px;
+    overflow: hidden;
+  }
+  main aside .about_our_comp .in_aside_about2 .font_for_aside1 {
+    font-size: 23px;
+    font-weight: 400;
+    color: #ffffff;
+    text-transform: uppercase;
+  }
+  main aside .about_our_comp .in_aside_about2 .font_for_aside2 {
+    font-size: 14px;
+    font-weight: 400;
+    color: #e1dce4;
+    text-transform: uppercase;
+    font-family: "Open Sans";
+    letter-spacing: 0.5px;
+    width: 100%;
+  }
+  main aside .about_our_comp .in_aside_about3 {
+    width: 92%;
+    height: 50px;
+  }
+  main aside .about_our_comp .font_for_aside3 {
+    margin: 13px 16px 0 0;
+  }
+  main aside .about_our_comp:first-child {
+    margin: 75px 0 0 992px;
+  }
+  main section {
+    width: 100%;
+    height: 1681px;
+  }
+  main section .top_section {
+    width: 100%;
+    height: 785px;
+  }
+  main section .top_section .for_muzhyk {
+    position: absolute;
+    top: 87px;
+    left: 977px;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+  }
+  main section .top_section .pingbuller_starts {
+    width: 410px;
+    height: 273px;
+    margin-left: 1005px;
+    margin-top: 71px;
+  }
+  main section .top_section .pingbuller_starts .starts {
+    margin: 24px 0 0 38px;
+  }
+  main section .top_section .pingbuller_starts .starts_here {
+    margin: 26px 0 0 4px;
+  }
+  main section .top_section .pingbuller_starts .under_starts {
+    font-size: 15.5px;
+    font-weight: 300;
+    color: #515151;
+    text-transform: uppercase;
+    text-transform: none;
+  }
+  main section .top_section .for_radio {
+    position: absolute;
+    top: 363px;
+    left: 1160px;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+  }
+  main section .top_section .right_w_sprite {
+    width: 364px;
+    height: 292px;
+    margin: 65px 1030px 0;
+  }
+  main section .top_section .right_w_sprite .recent_updates2 .in_recent_for_margin .in_side_resent1 {
+    font-size: 16px;
+    font-weight: 800;
+    color: #000000;
+    text-transform: uppercase;
+    font-style: bold;
+    text-transform: none;
+    margin: 19px 0 0 80px;
+  }
+  main section .top_section .right_w_sprite .recent_updates2 .in_recent_for_margin .in_side_resent2 {
+    font-size: 15.3px;
+    font-weight: 400;
+    color: #000000;
+    text-transform: uppercase;
+    font-style: normal;
+    text-transform: none;
+    margin: 10px 0 0 80px;
+  }
+  main section .top_section .right_w_sprite .recent_updates2 .in_recent_for_margin .in_side_resent2 .for_media480 {
+    color: rgba(0, 0, 0, 0);
+  }
+  main section .top_section .right_w_sprite .recent_updates3 {
+    width: 100%;
+    height: 30px;
+  }
+  main section .top_section .right_w_sprite .recent_updates3 p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+    text-transform: uppercase;
+    margin: 13px 24px 0 0;
+  }
+  main section .logo {
+    width: 100%;
+    height: 234px;
+  }
+  main section .logo .for_media480 {
+    width: 345px;
+    height: 154px;
+    background-image: url(./image/logos_for480.png);
+    margin: 34px 1027px 1px;
+  }
+  main section .logo .for_media480 img {
+    opacity: 0;
+  }
+  main section .bottom_section {
+    width: 100%;
+    height: 668px;
+    background-color: #ececec;
+  }
+  main section .bottom_section .content_about {
+    width: 457px;
+    height: 135px;
+    margin: 52px 976px 2px;
+  }
+  main section .bottom_section .copy1 .font_for_content1 {
+    font-size: 26px;
+    font-weight: 400;
+    color: #000000;
+    text-transform: uppercase;
+    font-family: "League Gothic Reg";
+    margin-top: 1px;
+  }
+  main section .bottom_section .copy1 .font_for_content1 span {
+    color: #000000;
+  }
+  main section .bottom_section .copy1 .copyring {
+    font-size: 15px;
+    font-weight: 300;
+    color: #000000;
+    text-transform: uppercase;
+    font-family: "Open Sans";
+    margin-top: 7px;
+    text-transform: none;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    font-style: normal;
+  }
+  main section .bottom_section .copy2 .font_for_content1 {
+    font-size: 24px;
+    font-weight: 400;
+    color: #000000;
+    text-transform: uppercase;
+  }
+  main section .bottom_section .copy2 .font_for_content2 {
+    margin-top: 6px;
+    text-transform: none;
+  }
+  main section .bottom_section .content_about:first-child {
+    margin: 69px 977px 2px;
+  }
+  main section .bottom_section .content_about:last-child {
+    margin: 48px 977px 2px;
+  }
+  main footer {
+    width: 100%;
+    height: 202px;
+    background-size: 100% 100%;
+  }
+  main footer .in_footer {
+    width: 442px;
+    height: 100%;
+    margin: 5px 985px;
+    display: block;
+  }
+  main footer .in_footer .menu_in_footer {
+    width: 428px;
+    height: 30px;
+    font-size: 17px;
+    font-weight: 400;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin: 46px 0px 19px;
+    float: left;
+  }
+  main footer .in_footer .copyring_in_footer {
+    text-transform: none;
+    margin-left: 146px;
+    float: left;
+  }
+}
+
+/*# sourceMappingURL=media480.css.map */

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .menu {
+        width: 800px;
+        margin: auto;
+      }
+
+      .menu__item {
+        list-style: none;
+        display: inline-block;
+        margin-left: 100px;
+      }
+
+      .menu__link {
+        display: block;
+        height: 33px;
+        width: 33px;
+        background-image: url(/.sprite.pn);
+        background-repeat: no-repeat;
+        transition: 1s;
+      }
+
+      .twitter {
+        background-position: -33px 0;
+      }
+
+      .google {
+        background-position: -66px 0;
+      }
+
+      .linkedin {
+        background-position: -99px 0;
+      }
+
+      .facebook:hover {
+        background-position: 0 -33px;
+      }
+
+      .twitter:hover {
+        background-position: -33px -33px;
+      }
+
+      .google:hover {
+        background-position: -66px -33px;
+      }
+
+      .linkedin:hover {
+        background-position: -99px -33px;
+      }
+    </style>
+  </head>
+  <body>
+    <ul class="menu">
+      <li class="menu__item">
+        <a href="#" class="menu__link facebook"></a>
+      </li>
+      <li class="menu__item">
+        <a href="#" class="menu__link twitter"></a>
+      </li>
+      <li class="menu__item">
+        <a href="#" class="menu__link google"></a>
+      </li>
+      <li class="menu__item">
+        <a href="#" class="menu__link linkedin"></a>
+      </li>
+    </ul>
+  </body>
+</html>

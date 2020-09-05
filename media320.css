@@ -1,0 +1,245 @@
+@media screen and (max-width: 320px) and (min-width: 21px) {
+  main {
+    width: 320px;
+    height: 2525px; }
+    main header {
+      width: 320px;
+      height: 516px;
+      position: relative;
+      background-image: url(./image/bg.png);
+      overflow: hidden; }
+      main header .menu_in_header {
+        margin: 0 0;
+        width: 320px;
+        height: 204px; }
+        main header .menu_in_header .pingbull {
+          float: left;
+          margin: 66px 0 0 123px;
+          width: 180px; }
+          main header .menu_in_header .pingbull .er {
+            font-size: 47px;
+            font-weight: 400;
+            color: #ffffff;
+            text-transform: uppercase;
+            opacity: 0.8; }
+        main header .menu_in_header .nav {
+          width: 180px;
+          height: 262px;
+          float: left;
+          margin-top: 145px;
+          margin-left: 62px;
+          position: absolute;
+          z-index: 6; }
+          main header .menu_in_header .nav .uelka {
+            display: block; }
+            main header .menu_in_header .nav .uelka li {
+              display: none; }
+            main header .menu_in_header .nav .uelka li:first-child {
+              display: block; }
+            main header .menu_in_header .nav .uelka li:hover {
+              display: block;
+              position: absolute;
+              z-index: 6; }
+      main header .for_lorem {
+        width: 100%;
+        height: 247px;
+        background-color: rgba(0, 0, 0, 0.1);
+        padding-top: 1px; }
+        main header .for_lorem .lorem_text {
+          width: 65%;
+          height: 235px;
+          margin-left: 104px;
+          text-align: start; }
+          main header .for_lorem .lorem_text p {
+            margin-top: 91px; }
+          main header .for_lorem .lorem_text .lorem_span1 {
+            font-size: 36px;
+            font-weight: 400;
+            color: white;
+            text-transform: uppercase;
+            text-transform: none; }
+          main header .for_lorem .lorem_text .lorem_span2 {
+            font-size: 18px;
+            font-weight: 400;
+            color: #c9a3d9;
+            text-transform: uppercase;
+            margin-top: 4px; }
+            main header .for_lorem .lorem_text .lorem_span2 .for_media768 {
+              color: rgba(0, 0, 0, 0); }
+          main header .for_lorem .lorem_text .lorem_span3 {
+            display: none; }
+      main header .iphone1 {
+        display: none; }
+      main header .iphone2 {
+        display: none; }
+      main header .button_play1 {
+        display: none; }
+      main header .button_play2 {
+        display: none; }
+      main header .button_play3 {
+        display: none; }
+    main aside {
+      width: 320px;
+      height: 594px; }
+      main aside .about_our_comp {
+        width: 282px;
+        height: 144px;
+        margin: 20px 0 0 73px; }
+        main aside .about_our_comp .in_aside_about1 {
+          width: 35px;
+          height: 90%; }
+        main aside .about_our_comp .in_aside_about2 {
+          width: 212px;
+          height: 100px;
+          margin-left: 5px;
+          overflow: hidden; }
+          main aside .about_our_comp .in_aside_about2 .font_for_aside1 {
+            font-size: 23px;
+            font-weight: 400;
+            color: #ffffff;
+            text-transform: uppercase; }
+          main aside .about_our_comp .in_aside_about2 .font_for_aside2 {
+            font-size: 12px;
+            font-weight: 400;
+            color: #e1dce4;
+            text-transform: uppercase;
+            font-family: "Open Sans";
+            letter-spacing: 0.5px;
+            width: 93%; }
+        main aside .about_our_comp .in_aside_about3 {
+          width: 92%;
+          height: 50px; }
+        main aside .about_our_comp .font_for_aside3 {
+          margin: -26px 14px 0 0; }
+      main aside .about_our_comp:first-child {
+        margin: 71px 0 0 70px; }
+    main section {
+      width: 320px;
+      height: 1209px; }
+      main section .top_section {
+        width: 320px;
+        height: 785px; }
+        main section .top_section .for_muzhyk {
+          position: absolute;
+          top: 93px;
+          left: 56px;
+          right: 0;
+          bottom: 0;
+          z-index: 2; }
+        main section .top_section .pingbuller_starts {
+          width: 237px;
+          height: 273px;
+          margin-left: 81px;
+          margin-top: 75px;
+          overflow: hidden; }
+          main section .top_section .pingbuller_starts .starts {
+            margin: 23px 0 0 36px;
+            font-size: 24px;
+            float: left;
+            width: 77%; }
+          main section .top_section .pingbuller_starts .starts_here {
+            margin: 0 0 0 35px;
+            font-size: 26px;
+            float: left; }
+          main section .top_section .pingbuller_starts .under_starts {
+            font-size: 17px;
+            font-weight: 300;
+            color: #515151;
+            text-transform: uppercase;
+            text-transform: none;
+            margin-top: 2px;
+            margin-right: 15px; }
+            main section .top_section .pingbuller_starts .under_starts .for_media768 {
+              opacity: 0; }
+        main section .top_section .for_radio {
+          position: absolute;
+          top: 370px;
+          left: 174px;
+          right: 0;
+          bottom: 0;
+          z-index: 2; }
+        main section .top_section .right_w_sprite {
+          width: 280px;
+          height: 292px;
+          margin: 67px 20px 0; }
+          main section .top_section .right_w_sprite .recent_updates1 {
+            margin: 21px 0 0 38px; }
+          main section .top_section .right_w_sprite .recent_updates2 .in_recent_for_margin .for_resent_sprite1 {
+            position: absolute;
+            top: -3px;
+            left: 40px;
+            right: 0;
+            bottom: 0;
+            z-index: 2; }
+          main section .top_section .right_w_sprite .recent_updates2 .in_recent_for_margin .for_resent_sprite2 {
+            position: absolute;
+            top: 61px;
+            left: 38px;
+            right: 0;
+            bottom: 0;
+            z-index: 2; }
+          main section .top_section .right_w_sprite .recent_updates2 .in_recent_for_margin .for_resent_sprite3 {
+            position: absolute;
+            top: 135px;
+            left: 40px;
+            right: 0;
+            bottom: 0;
+            z-index: 2; }
+          main section .top_section .right_w_sprite .recent_updates2 .in_recent_for_margin .in_side_resent1 {
+            font-size: 16px;
+            font-weight: 800;
+            color: #000000;
+            text-transform: uppercase;
+            text-transform: none;
+            margin: 19px 0 0 105px; }
+            main section .top_section .right_w_sprite .recent_updates2 .in_recent_for_margin .in_side_resent1 .for_media320 {
+              display: none; }
+          main section .top_section .right_w_sprite .recent_updates2 .in_recent_for_margin .in_side_resent2 {
+            font-size: 15.3px;
+            font-weight: 400;
+            color: #000000;
+            text-transform: uppercase;
+            font-style: normal;
+            text-transform: none;
+            margin: 10px 0 0 105px; }
+            main section .top_section .right_w_sprite .recent_updates2 .in_recent_for_margin .in_side_resent2 .for_media480 {
+              color: rgba(0, 0, 0, 0); }
+          main section .top_section .right_w_sprite .recent_updates3 {
+            width: 100%;
+            height: 30px; }
+            main section .top_section .right_w_sprite .recent_updates3 p {
+              font-size: 16px;
+              font-weight: 400;
+              color: #000000;
+              text-transform: uppercase;
+              margin: 13px 24px 0 0; }
+      main section .logo {
+        width: 320px;
+        height: 422px;
+        border: none; }
+        main section .logo .for_media480 {
+          width: 280px;
+          height: 370px;
+          background-image: url(./image/photo_logo.png);
+          margin: 7px 0 0 40px; }
+          main section .logo .for_media480 img {
+            display: none; }
+      main section .bottom_section {
+        display: none; }
+    main footer {
+      width: 320px;
+      height: 202px;
+      background-size: 100% 100%; }
+      main footer .in_footer {
+        width: 310px;
+        height: 100%;
+        margin: 5px 1px 1px;
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        main footer .in_footer .menu_in_footer {
+          display: none; }
+        main footer .in_footer .copyring_in_footer {
+          text-transform: none; } }
+
+/*# sourceMappingURL=media320.css.map */

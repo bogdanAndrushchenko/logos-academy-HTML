@@ -1,0 +1,412 @@
+$right_margin: 718px;
+$margim_top: 60px;
+@font-face {
+  font-family: "League Gothic Reg";
+  src: url(./fonts/LeagueGothic-Regular.otf);
+}
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700;800&display=swap");
+@mixin set_WH($w, $h) {
+  width: $w;
+  height: $h;
+}
+@mixin set_text($fs, $fw, $col) {
+  font-size: $fs;
+  font-weight: $fw;
+  color: $col;
+  text-transform: uppercase;
+}
+@mixin set_position($top, $l, $r, $bott, $z_n) {
+  position: absolute;
+  top: $top;
+  left: $l;
+  right: $r;
+  bottom: $bott;
+  z-index: $z_n;
+}
+@mixin nav_flex {
+  display: flex;
+  justify-content: space-between;
+}
+@mixin footer_flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@mixin border {
+  outline: 1px solid black;
+}
+@mixin border_logo {
+  border-top: 2px solid #e6e6e6;
+  border-bottom: 2px solid #d8d8d8;
+}
+@mixin for_sprite {
+  display: block;
+  height: 33px;
+  width: 33px;
+  background-image: url(./image/source_of_icons.png);
+  background-repeat: no-repeat;
+  transition: 1s;
+}
+
+main {
+  @include set_WH(2397px, 2307px);
+
+  header {
+    @include set_WH(100%, 844px);
+    position: relative;
+    background-image: url(./image/bg.png);
+    .menu_in_header {
+      margin: 0 $right_margin;
+      @include set_WH(66%, 276px);
+      .pingbull {
+        @include set_WH(208px, 52px);
+        float: left;
+        margin-top: $margim_top + 4px;
+        .er {
+          @include set_text(46px, 400, #ffffff);
+          font-family: "League Gothic Reg";
+          .er2 {
+            color: #745083;
+          }
+        }
+      }
+      .nav {
+        @include set_WH(1030px, 30px);
+        float: left;
+        margin-top: $margim_top + 12px;
+        .uelka {
+          @include set_WH(61%, 100%);
+          @include nav_flex();
+          margin-left: $margim_top * 2;
+        }
+        li {
+          @include set_text(24px, 400, #ffffff);
+          font-family: "League Gothic Reg";
+        }
+        li:hover {
+          border-bottom: 2px solid #edbfff;
+          cursor: pointer;
+        }
+      }
+    }
+    .for_lorem {
+      @include set_WH(100%, 402px);
+      background-color: rgba(0, 0, 0, 0.1);
+      padding-top: 1px;
+
+      .lorem_text {
+        @include set_WH(528px, 235px);
+        @include set_text(19px, 500, white);
+        margin: 0 $right_margin;
+        text-align: start;
+        p {
+          margin-top: 77px;
+        }
+        .lorem_span1 {
+          @include set_text(59px, 700, white);
+          font-family: "League Gothic Reg";
+          text-transform: capitalize;
+        }
+        .lorem_span2 {
+          @include set_text(32px, 400, #c9a3d9);
+          font-family: "League Gothic Reg";
+          margin-top: 2px;
+        }
+        .lorem_span3 {
+          @include set_text(17px, 300, #e1e0e4);
+          font-family: "Open Sans";
+          text-transform: none;
+          margin-top: $margim_top - 52px;
+          line-height: 24px;
+        }
+      }
+    }
+    .iphone1 {
+      @include set_WH(194px, 374px);
+      border-radius: 33px;
+      background-image: url(./image/iPhone.png);
+      @include set_position(261px, 1410px, 0, 0, 3);
+    }
+    .iphone2 {
+      @include set_WH(127px, 234px);
+      border-radius: 30px;
+      background-image: url(./image/iPhone_copy.png);
+      @include set_position(335px, 1334px, 0, 0, 2);
+    }
+    .button_play1 {
+      @include set_WH(77px, 77px);
+      border-radius: 38px;
+      background-image: url(./image/button_play_shape.png);
+      @include set_position(410px, 1471px, 0, 0, 4);
+    }
+    .button_play2 {
+      @include set_WH(50px, 50px);
+      border-radius: 25px;
+      background-image: url(./image/button_play_kllipse.png);
+      @include set_position(423px, 1484px, 0, 0, 4);
+    }
+    .button_play3 {
+      @include set_WH(22px, 26px);
+      background-image: url(./image/button_play_tr.png);
+      @include set_position(437px, 1501px, 0, 0, 5);
+    }
+  }
+  aside {
+    @include set_WH(100%, 343px);
+    background: linear-gradient(#745083, #33263a);
+    .about_our_comp {
+      @include set_WH(337px, 70%);
+      float: left;
+      margin-top: $margim_top + 17px;
+      .in_aside_about1 {
+        @include set_WH(35px, 100%);
+        float: left;
+        margin-top: 6px;
+      }
+      .in_aside_about2 {
+        @include set_WH(290px, 164px);
+        float: left;
+        margin-left: 5px;
+        .font_for_aside1 {
+          @include set_text(32px, 400, #ffffff);
+          font-family: "League Gothic Reg";
+          margin-left: 11px;
+        }
+        .font_for_aside2 {
+          @include set_text(14px, 400, #f6f6f6);
+          font-family: "Open Sans";
+          letter-spacing: 0.5px;
+          width: 80%;
+          margin-top: 7px;
+          margin-left: 12px;
+          line-height: 24px;
+          text-transform: none;
+        }
+      }
+      .in_aside_about3 {
+        @include set_WH(290px, 50px);
+        float: left;
+      }
+      .font_for_aside3 {
+        @include set_text(19px, 400, #ffffff);
+        font-family: "League Gothic Reg";
+        text-align: end;
+        margin: 13px 49px 0 0;
+      }
+      .font_for_aside3:hover {
+        cursor: pointer;
+        text-shadow: rgba(201, 198, 203, 0.8) 1px 1px 18px 6px;
+      }
+    }
+    .about_our_comp:first-child {
+      margin-left: $right_margin + 13px;
+    }
+  }
+  section {
+    @include set_WH(100%, 1002px);
+    .top_section {
+      @include set_WH(100%, 487px);
+      background-color: #f9f9f9;
+      position: relative;
+      .for_muzhyk {
+        @include set_WH(53px, 50px);
+        @include set_position(120px, 715px, 0, 0, 2);
+        .muzhyk {
+          @include set_WH(53px, 49px);
+          background-image: url(./image/source_of_icons.png);
+          background-position: 0px 603px;
+        }
+      }
+      .pingbuller_starts {
+        @include set_WH(427px, 272px);
+        margin-left: $right_margin + 25px;
+        margin-top: $margim_top + 40px;
+        float: left;
+        background-color: #ffffff;
+        .starts {
+          @include set_text(30px, 400, #454545);
+          font-family: "League Gothic Reg";
+          margin: 30px 0 0 38px;
+          float: left;
+        }
+        .starts_here {
+          @include set_text(30px, 400, #edbfff);
+          font-family: "League Gothic Reg";
+          margin: 30px 0 0 4px;
+          float: left;
+        }
+        .under_starts {
+          @include set_text(16px, 300, #515151);
+          font-family: "Open Sans";
+          word-spacing: 1px;
+          margin-top: $margim_top - 49px;
+          line-height: 24px;
+          margin-left: 38px;
+          text-transform: none;
+          float: left;
+        }
+      }
+      .for_radio {
+        @include set_WH(100px, 25px);
+        @include set_position(396px, 908px, 0, 0, 2);
+      }
+      .right_w_sprite {
+        @include set_WH(455px, 292px);
+        margin-right: $right_margin;
+        margin-top: $margim_top + 50px;
+        margin-left: $margim_top - 15px;
+        float: left;
+        .recent_updates1 {
+          @include set_WH(90%, 30px);
+          @include set_text(30px, 400, #000000);
+          font-family: "League Gothic Reg";
+          margin: 20px 0 0 14px;
+        }
+        .recent_updates2 {
+          @include set_WH(100%, 187px);
+          margin-top: 18px;
+          position: relative;
+          .in_recent_for_margin {
+            @include set_WH(100%, 47px);
+            font-family: "Open Sans";
+            .for_resent_sprite1 {
+              @include set_WH(53px, 49px);
+              background-image: url(./image/source_of_icons.png);
+              background-position: -73px -437px;
+              @include set_position(-4px, 14px, 0, 0, 2);
+            }
+            .for_resent_sprite2 {
+              @include set_WH(53px, 49px);
+              background-image: url(./image/source_of_icons.png);
+              background-position: -143px -378px;
+              @include set_position(63px, 13px, 0, 0, 2);
+            }
+            .for_resent_sprite3 {
+              @include set_WH(53px, 49px);
+              background-image: url(./image/source_of_icons.png);
+              background-position: -216px -322px;
+              @include set_position(130px, 14px, 0, 0, 2);
+            }
+            .in_side_resent1 {
+              @include set_text(16px, 800, #000000);
+              font-style: bold;
+              text-transform: none;
+              margin: 19px 0 0 $margim_top + 20px;
+            }
+            .in_side_resent2 {
+              @include set_text(15.3px, 400, #000000);
+              font-style: normal;
+              text-transform: none;
+              margin: 8px 0 0 $margim_top + 20px;
+            }
+          }
+        }
+        .recent_updates3 {
+          @include set_WH(100%, 30px);
+          p {
+            @include set_text(18px, 400, #000000);
+            font-family: "League Gothic Reg";
+            text-align: end;
+            margin: 15px 13px 0 0;
+          }
+        }
+      }
+    }
+
+    .logo {
+      @include set_WH(100%, 119px);
+      background-color: #f9f9f9;
+      @include border_logo();
+      figure {
+        margin: 24px $right_margin + 95px;
+      }
+    }
+    .bottom_section {
+      @include set_WH(100%, 396px);
+      background-color: #ececec;
+      .content_about {
+        @include set_WH(288px, 206px);
+        margin-top: $margim_top + 33px;
+        float: left;
+      }
+      .copy1 {
+        .font_for_content1 {
+          @include set_text(47px, 400, #000000);
+          font-family: "League Gothic Reg";
+          margin-top: 1px;
+          span {
+            color: #b9b9b9;
+          }
+        }
+        .copyring {
+          @include set_text(17px, 300, #b9b9b9);
+          margin-top: 10px;
+          text-transform: none;
+          line-height: 24px;
+          font-style: italic;
+        }
+        .font_for_content2 {
+          @include set_text(15px, 300, #888888);
+          font-family: "Open Sans";
+          margin-top: 7px;
+          text-transform: none;
+          line-height: 24px;
+          letter-spacing: 0.5px;
+        }
+      }
+      .copy2 {
+        .font_for_content1 {
+          @include set_text(30px, 400, #000000);
+          font-family: "League Gothic Reg";
+          margin-top: 2px;
+        }
+        .font_for_content2 {
+          @include set_text(15px, 300, #888888);
+          font-family: "Open Sans";
+          margin-top: 9px;
+          text-transform: none;
+          line-height: 24px;
+        }
+      }
+      .content_about:first-child {
+        margin-left: $right_margin;
+        margin-right: $margim_top - 9px;
+      }
+      .content_about:last-child {
+        margin-right: $right_margin - 8px;
+        margin-left: $margim_top - 8px;
+      }
+    }
+  }
+  footer {
+    @include set_WH(100%, 112px);
+    background: url(./image/bg_footer.png);
+    .in_footer {
+      @include set_WH(960px, 100%);
+      margin: 5px $right_margin;
+      @include footer_flex();
+      .menu_in_footer {
+        @include set_WH(530px, 30px);
+        @include set_text(21px, 400, #ffffff);
+        font-family: "League Gothic Reg";
+        margin-top: 4px;
+        .uelka_in_footer {
+          @include nav_flex();
+        }
+      }
+      .copyring_in_footer {
+        @include set_WH(140px, 20px);
+        @include set_text(12px, 300, #e7e6e8);
+        font-family: "Open Sans";
+        text-transform: none;
+        p {
+          margin: 5px 0 0 4px;
+          span {
+            font-weight: 800;
+            color: #ffffff;
+          }
+        }
+      }
+    }
+  }
+}
