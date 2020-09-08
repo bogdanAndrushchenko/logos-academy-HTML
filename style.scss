@@ -1,0 +1,119 @@
+$bc: #ebebeb;
+$bbc: #ffffff;
+$mrg: 300px;
+
+@mixin center_flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@mixin set_font {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 17px;
+  font-weight: 600;
+  color: black;
+  text-transform: uppercase;
+}
+@mixin border {
+  border: 2px solid black;
+}
+@mixin set_WH($w, $h) {
+  width: $w;
+  height: $h;
+}
+@mixin margin {
+  margin-left: 23px;
+  margin-top: 23px;
+}
+@mixin menu_flex {
+  display: flex;
+  justify-content: space-between;
+}
+@mixin menu_text {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 13px;
+  font-weight: 400;
+  color: black;
+  list-style-type: none;
+  text-transform: none;
+}
+@mixin for_lisky {
+  width: 70px;
+  margin: 5px;
+  // background: linear-gradient(#745083,#34273c);
+}
+
+
+main {
+  background-color: $bbc;
+  margin: 100px 100px;
+  @include set_WH(800px, 500px);
+  @include border();
+}
+header {
+  @include set_WH(754px, 94px);
+  background-color: $bc;
+  @include border();
+  @include set_font();
+  @include margin();
+  .logo {
+    @include set_WH(133px, 49px);
+    background-color: $bbc;
+    @include border();
+    @include center_flex();
+    @include set_font();
+    color: #b9b9b9;
+    @include margin();
+    float: left;
+  }
+  .nav {
+    @include set_WH(220px, 25px);
+    margin-left: $mrg + 200px;
+    margin-top: $mrg - 245px;
+  }
+  ul {
+    @include set_WH(220px, 25px);
+    @include menu_flex();
+    @include menu_text();
+  }
+  li {
+    @include for_lisky();
+    @include set_WH(60px, 25px);
+  }
+}
+section {
+  @include set_WH(505px, 266px);
+  background-color: $bc;
+  @include border();
+  @include center_flex();
+  @include set_font();
+  @include margin();
+  float: left;
+}
+aside {
+  @include set_WH(224px, 266px);
+  background-color: $bc;
+  @include border();
+  @include center_flex();
+  @include set_font();
+  @include margin();
+  float: left;
+}
+footer {
+  @include set_WH(754px, 44px);
+  background-color: $bc;
+  @include border();
+  @include center_flex();
+  @include set_font();
+  @include margin();
+  float: left;
+  .copy {
+    @include menu_text();
+    display: inline-flex;
+    text-align: start;
+    margin-right: $mrg;
+  }
+  .footer {
+    margin-right: $mrg;
+  }
+}

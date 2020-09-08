@@ -1,0 +1,133 @@
+main {
+  background-color: #ffffff;
+  margin: 100px 100px;
+  width: 800px;
+  height: 500px;
+  border: 2px solid black;
+}
+
+header {
+  width: 754px;
+  height: 94px;
+  background-color: #ebebeb;
+  border: 2px solid black;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 17px;
+  font-weight: 600;
+  color: black;
+  text-transform: uppercase;
+  margin-left: 23px;
+  margin-top: 23px;
+}
+header .logo {
+  width: 133px;
+  height: 49px;
+  background-color: #ffffff;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 17px;
+  font-weight: 600;
+  color: black;
+  text-transform: uppercase;
+  color: #b9b9b9;
+  margin-left: 23px;
+  margin-top: 23px;
+  float: left;
+}
+header .nav {
+  width: 220px;
+  height: 25px;
+  margin-left: 500px;
+  margin-top: 55px;
+}
+header ul {
+  width: 220px;
+  height: 25px;
+  display: flex;
+  justify-content: space-between;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 13px;
+  font-weight: 400;
+  color: black;
+  list-style-type: none;
+  text-transform: none;
+}
+header li {
+  width: 70px;
+  margin: 5px;
+  width: 60px;
+  height: 25px;
+}
+
+section {
+  width: 505px;
+  height: 266px;
+  background-color: #ebebeb;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 17px;
+  font-weight: 600;
+  color: black;
+  text-transform: uppercase;
+  margin-left: 23px;
+  margin-top: 23px;
+  float: left;
+}
+
+aside {
+  width: 224px;
+  height: 266px;
+  background-color: #ebebeb;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 17px;
+  font-weight: 600;
+  color: black;
+  text-transform: uppercase;
+  margin-left: 23px;
+  margin-top: 23px;
+  float: left;
+}
+
+footer {
+  width: 754px;
+  height: 44px;
+  background-color: #ebebeb;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 17px;
+  font-weight: 600;
+  color: black;
+  text-transform: uppercase;
+  margin-left: 23px;
+  margin-top: 23px;
+  float: left;
+}
+footer .copy {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 13px;
+  font-weight: 400;
+  color: black;
+  list-style-type: none;
+  text-transform: none;
+  display: inline-flex;
+  text-align: start;
+  margin-right: 300px;
+}
+footer .footer {
+  margin-right: 300px;
+}
+
+/*# sourceMappingURL=style.css.map */
